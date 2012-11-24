@@ -12,7 +12,7 @@
     "mustache"
   ],
   "dependencies": {
-	"mustache": "*",
+	"mustache": "*"
   },
   "devDependencies": {
 	"mocha": "*",
