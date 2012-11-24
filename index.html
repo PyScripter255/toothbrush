@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Toothbrush by PyScripter255</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/PyScripter255/toothbrush">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Toothbrush</h1>
+            <h2>A stream-based, node.js mustache renderer</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/PyScripter255/toothbrush/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/PyScripter255/toothbrush/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>toothbrush.js</h1>
+
+<h2>Stream-based mustache template rendering for node.js</h2>
+
+<h2>Installation</h2>
+
+<pre><code>npm install toothbrush
+</code></pre>
+
+<h2>Usage</h2>
+
+<div class="highlight"><pre><span class="kd">var</span> <span class="nx">toothbrush</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s2">"toothbrush"</span><span class="p">);</span>
+
+<span class="nx">http</span><span class="p">.</span><span class="nx">createSever</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">){</span>
+    <span class="nx">toothbrush</span><span class="p">(</span><span class="s2">"./test.html"</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="p">{</span><span class="s2">"title"</span><span class="o">:</span> <span class="s2">"toothbrush"</span><span class="p">});</span>
+<span class="p">}).</span><span class="nx">listen</span><span class="p">(</span><span class="mi">8080</span><span class="p">);</span>
+</pre></div>
+
+<p>Included in <a href="http://pyscripter255.github.com/froyo">froyo</a>.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/PyScripter255">PyScripter255</a> can be found on <a href="https://github.com/PyScripter255/toothbrush">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
