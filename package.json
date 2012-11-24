@@ -13,10 +13,10 @@
   ],
   "dependencies": {
 	"mustache": "*",
-	"supertest": "*"
   },
   "devDependencies": {
-	"mocha": "*"
+	"mocha": "*",
+	"supertest": "*"
   },
   "author": "PyScripter255",
   "license": "MIT"
