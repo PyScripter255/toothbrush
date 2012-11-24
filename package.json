@@ -1,0 +1,23 @@
+{
+  "name": "toothbrush",
+  "version": "0.0.1",
+  "description": "A stream-based, node.js mustache renderer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "repository": "",
+  "keywords": [
+    "stream-based",
+    "mustache"
+  ],
+  "dependencies": {
+	"mustache": "*",
+	"supertest": "*"
+  },
+  "devDependencies": {
+	"mocha": "*"
+  },
+  "author": "PyScripter255",
+  "license": "MIT"
+}
