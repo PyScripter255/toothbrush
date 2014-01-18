@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha --reporter spec"
   },
-  "repository": "",
+  "repository": "https://github.com/PyScripter255/toothbrush.git",
   "keywords": [
     "stream-based",
     "mustache"
